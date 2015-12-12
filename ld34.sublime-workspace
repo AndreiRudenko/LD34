@@ -1,0 +1,1465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sh",
+				"shape1"
+			],
+			[
+				"sha",
+				"shape2"
+			],
+			[
+				"co",
+				"p· contactsArray	Array<physics.Contact>"
+			],
+			[
+				"solv",
+				"solveVelocityCCD"
+			],
+			[
+				"ccd",
+				"p· ccdTouched	Bool"
+			],
+			[
+				"i",
+				"p· isCollideDiscrete	Bool"
+			],
+			[
+				"isc",
+				"p· isCollideDiscrete	Bool"
+			],
+			[
+				"solvep",
+				"solvePosition"
+			],
+			[
+				"nor",
+				"normal"
+			],
+			[
+				"F",
+				"Float"
+			],
+			[
+				"norm",
+				"normalImpulse"
+			],
+			[
+				"corr",
+				"m· correct3_minus	 "
+			],
+			[
+				"cont",
+				"continue"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"upd",
+				"m· updateShape	 "
+			],
+			[
+				"name",
+				"name_unique"
+			],
+			[
+				"coll",
+				"p· isCollideCCD	Bool"
+			],
+			[
+				"div",
+				"m· divideScalar	phoenix.Vector"
+			],
+			[
+				"di",
+				"m· divideScalar	phoenix.Vector"
+			],
+			[
+				"inv",
+				"invMass"
+			],
+			[
+				"so",
+				"m· solvePosition	 "
+			],
+			[
+				"b",
+				"p· body	physics.RigidBody"
+			],
+			[
+				"colo",
+				"p· color_pink	phoenix.Color"
+			],
+			[
+				"len",
+				"p· lengthsq	Float"
+			],
+			[
+				"v",
+				"p· transformedVertices	Array<luxe.Vector>"
+			],
+			[
+				"set",
+				"m· set_xy	 "
+			],
+			[
+				"_",
+				"_transformedVertices"
+			],
+			[
+				"se",
+				"m· set_xy	 "
+			],
+			[
+				"bosp",
+				"boxPos"
+			],
+			[
+				"inver",
+				"m· invert	phoenix.Vector"
+			],
+			[
+				"sph",
+				"spherePos"
+			],
+			[
+				"Pol",
+				"PolygonShape"
+			],
+			[
+				"swe",
+				"sweepCircleAABB"
+			],
+			[
+				"tf",
+				"tfirst"
+			],
+			[
+				"mu",
+				"m· multiplyScalar	 "
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"le",
+				"p· lengthsq	Float"
+			],
+			[
+				"inve",
+				"p· inverted	phoenix.Vector"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"colbl",
+				"p· color_bluegreen	phoenix.Color"
+			],
+			[
+				"colg",
+				"p· color_green2	phoenix.Color"
+			],
+			[
+				"c",
+				"circle"
+			],
+			[
+				"inte",
+				"intersect"
+			],
+			[
+				"cor",
+				"m· correct3	 "
+			],
+			[
+				"up",
+				"m· updateShape	 "
+			],
+			[
+				"dt",
+				"Dthreshold"
+			],
+			[
+				"mass",
+				"invMass"
+			],
+			[
+				"p",
+				"color_purple	phoenix.Color"
+			],
+			[
+				"dr",
+				"draw_aabb	function"
+			],
+			[
+				"sw",
+				"sweptSpherePolygon	function"
+			],
+			[
+				"t",
+				"testSpherePolygon	function"
+			],
+			[
+				"B",
+				"Bool"
+			],
+			[
+				"is",
+				"isNaN	function"
+			],
+			[
+				"C",
+				"Contact"
+			],
+			[
+				"shp",
+				"spherePos"
+			],
+			[
+				"Po",
+				"POLYGON"
+			],
+			[
+				"po",
+				"points"
+			],
+			[
+				"mul",
+				"Multiply"
+			],
+			[
+				"add",
+				"addScalar	function"
+			],
+			[
+				"d",
+				"dot	function"
+			],
+			[
+				"cir",
+				"circle1"
+			],
+			[
+				"fin",
+				"findClosestPointOnBox"
+			],
+			[
+				"m",
+				"min	luxe.Vector"
+			],
+			[
+				"s",
+				"shape1	physics.shapes.Shape"
+			],
+			[
+				"ci",
+				"circle2"
+			],
+			[
+				"col",
+				"color_green	phoenix.Color"
+			],
+			[
+				"r",
+				"relativeVelocity	luxe.Vector"
+			],
+			[
+				"in",
+				"invert	function"
+			],
+			[
+				"ma",
+				"max	luxe.Vector"
+			],
+			[
+				"a",
+				"shapeA	physics.Shape"
+			],
+			[
+				"Ci",
+				"CIRCLE"
+			],
+			[
+				"de",
+				"destroy	function"
+			],
+			[
+				"comp",
+				"components"
+			],
+			[
+				"shape",
+				"shapeType"
+			],
+			[
+				"_op",
+				"_opt"
+			],
+			[
+				"cc",
+				"solveCCD	function"
+			],
+			[
+				"th",
+				"thisMTD"
+			],
+			[
+				"cogr",
+				"color_green	phoenix.Color"
+			],
+			[
+				"n",
+				"normalized	phoenix.Vector"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"del",
+				"fixed_delta	Float"
+			],
+			[
+				"en",
+				"entity	luxe.Entity"
+			],
+			[
+				"st",
+				"stop	Bool"
+			],
+			[
+				"f",
+				"staticFriction	Float"
+			],
+			[
+				"no",
+				"normalImpulse	Float"
+			],
+			[
+				"rela",
+				"relativeVelocity"
+			],
+			[
+				"tav",
+				"tangentVelocity"
+			],
+			[
+				"P",
+				"PX"
+			],
+			[
+				"tan",
+				"tangentMass"
+			],
+			[
+				"cjt",
+				"cjTx"
+			],
+			[
+				"imp",
+				"impulse"
+			],
+			[
+				"new",
+				"new Vec	new Vector()"
+			],
+			[
+				"ha",
+				"hasBody	Bool"
+			],
+			[
+				"cop",
+				"color_purple	phoenix.Color"
+			],
+			[
+				"for",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"Co",
+				"Component	Default"
+			],
+			[
+				"ra",
+				"random	Default"
+			],
+			[
+				"Ord",
+				"OrderedMap	Default"
+			],
+			[
+				"loadf",
+				"LoadFilesToTable	 LoadFilesToTable( path, tbl ) -luaP"
+			],
+			[
+				"loa",
+				"loadfile	Default"
+			],
+			[
+				"ini",
+				"initialise"
+			],
+			[
+				"get",
+				"getName"
+			],
+			[
+				"e",
+				"empty	function"
+			],
+			[
+				"enti",
+				"entities"
+			],
+			[
+				"ne",
+				"new Vec	new Vector()"
+			],
+			[
+				"compo",
+				"Components"
+			],
+			[
+				"asse",
+				"assertnull"
+			],
+			[
+				"ge",
+				"getName"
+			],
+			[
+				"fo",
+				"forp	for k,v in pairs()"
+			],
+			[
+				"ass",
+				"assertlua"
+			],
+			[
+				"scene",
+				"sceneName"
+			],
+			[
+				"com",
+				"comp1	local"
+			],
+			[
+				"ent",
+				"entities"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"tes",
+				"testEntity"
+			],
+			[
+				"sc",
+				"scene	luxe.Scene"
+			],
+			[
+				"o",
+				"owner	luxe.Entity"
+			],
+			[
+				"li",
+				"listen_pos	function"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"pla",
+				"Player"
+			],
+			[
+				"jum",
+				"jumpH"
+			],
+			[
+				"EaseI",
+				"EaseIn"
+			],
+			[
+				"fr",
+				"frictionTimer"
+			],
+			[
+				"res",
+				"reset	function"
+			],
+			[
+				"addv",
+				"addVelocity	function"
+			],
+			[
+				"bull",
+				"bulletKnockBack"
+			],
+			[
+				"apl",
+				"applyImpulseVec	function"
+			],
+			[
+				"We",
+				"WeaponOptions"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "project.flow",
+			"settings":
+			{
+				"buffer_size": 457,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 221.0,
+		"last_filter": "rem",
+		"selected_items":
+		[
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"rese",
+				"Haxe Completion: reset"
+			],
+			[
+				"up",
+				"Convert Case: Upper Case"
+			],
+			[
+				"haxe",
+				"Haxe Completion: reset"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"addr",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: en",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set synta",
+				"Set Syntax: Lua (Love)"
+			],
+			[
+				"Package Control Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 701.0,
+		"history":
+		[
+			"`",
+			"where linter",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Dev/LD34"
+	],
+	"file_history":
+	[
+		"/E/Dev/pirateGame/src/physics/ContactSolver.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/B2World.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/B2Body.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/contacts/B2ContactEdge.hx",
+		"/E/Dev/pirateGame/src/physics/Contact.hx",
+		"/E/Dev/pirateGame/src/physics/ContactList.hx",
+		"/E/Dev/pirateGame/src/physics/shapes/Shape.hx",
+		"/E/Dev/pirateGame/src/physics/Space.hx",
+		"/E/Dev/pirateGame/src/physics/RigidBody.hx",
+		"/E/Dev/pirateGame/src/Physics.hx",
+		"/E/Dev/pirateGame/src/Main.hx",
+		"/E/Dev/LD34/project.flow",
+		"/E/Dev/pirateGame/Info/ref/Box2D_Lite/Body.cpp",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/contacts/B2Contact.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/B2ContactManager.hx",
+		"/E/Dev/pirateGame/src/components/player/Run.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/contacts/B2ContactFactory.hx",
+		"/E/Dev/pirateGame/src/entities/Player.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/B2Island.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/common/math/B2Math.hx",
+		"/E/Dev/pirateGame/src/physics/collision/SCDL.hx",
+		"/E/Dev/pirateGame/src/physics/PhysicsMaterial.hx",
+		"/E/Dev/pirateGame/Info/ref4/AAE---Axis-Aligned-Engine-master/aae.js",
+		"/E/Dev/pirateGame/Info/ref/box2D/common/B2Settings.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/contacts/B2ContactSolver.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/collision/B2WorldManifold.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/collision/B2TimeOfImpact.hx",
+		"/E/Dev/pirateGame/Info/ref/box2d-lite-js-master/src/main/arbiter.js",
+		"/E/Dev/pirateGame/Info/ref/box2d-lite-js-master/src/main/world.js",
+		"/E/Dev/pirateGame/Info/ref/box2d-lite-js-master/src/main/contact.js",
+		"/E/Dev/pirateGame/Info/ref/box2d-lite-js-master/src/main/collide.js",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/joints/B2Joint.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/collision/B2ManifoldPoint.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/collision/B2Manifold.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/contacts/B2ContactConstraintPoint.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/common/math/B2Sweep.hx",
+		"/E/Dev/pirateGame/src/physics/Sweep.hx",
+		"/E/Dev/pirateGame/Info/ref/box2D/dynamics/contacts/B2PositionSolverManifold.hx",
+		"/E/Dev/pirateGame/Info/ref/Box2D_Lite/World.cpp",
+		"/E/Dev/pirateGame/Info/ref/Box2D_Lite/Arbiter.cpp",
+		"/E/Dev/pirateGame/Info/ref/go-box2d-lite-master/box2dlite/world.go",
+		"/E/Dev/pirateGame/Info/ref/go-box2d-lite-master/box2dlite/arbiter.go",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polycolly/code/Tutorial 4 - Basic Arcade Collision response/source/Body.h",
+		"/E/Dev/pirateGame/src/components/physics/Body.hx",
+		"/E/Dev/pirateGame/src/components/physics/PolygonCollider.hx",
+		"/E/Dev/pirateGame/src/components/physics/Collider.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polycolly/code/Tutorial 4 - Basic Arcade Collision response/source/Body.cpp",
+		"/E/Dev/pirateGame/Info/ref/SusliX Lite/src/main.cpp",
+		"/E/Dev/pirateGame/Info/ref/SusliX Lite/src/Solver.h",
+		"/E/Dev/pirateGame/Info/ref/SusliX Lite/src/Collider.h",
+		"/E/Dev/pirateGame/Info/ref/SusliX Lite/src/PhysSystem.h",
+		"/E/Dev/pirateGame/src/physics/shapes/BoxShape.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polycolly/code/Tutorial 4 - Basic Arcade Collision response/source/GameCode.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polycolly/code/Tutorial 4 - Basic Arcade Collision response/source/main.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 7 - Rigid body dynamics/source (no rotation)/Body.cpp",
+		"/E/Dev/pirateGame/src/game/MapManager.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 7 - Rigid body dynamics/source (no rotation)/Collision.cpp",
+		"/E/Dev/pirateGame/src/physics/CollisionFaces.hx",
+		"/E/Dev/openSource/Quake-III-Arena-master/code/qcommon/cm_test.c",
+		"/E/Dev/openSource/Quake-III-Arena-master/code/qcommon/cm_polylib.c",
+		"/E/Dev/openSource/Quake-III-Arena-master/code/qcommon/cm_patch.c",
+		"/E/Dev/pirateGame/src/components/physics/CircleCollider.hx",
+		"/E/Dev/pirateGame/src/components/physics/BoxCollider.hx",
+		"/E/Dev/pirateGame/src/components/player/PlayerSettings.hx",
+		"/E/Dev/pirateGame/src/physics/RenderSettings.hx",
+		"/E/GitHub/luxe/phoenix/Vector.hx",
+		"/E/Dev/pirateGame/src/physics/Collision.hx",
+		"/E/Dev/pirateGame/src/physics/CellObject.hx",
+		"/E/Dev/pirateGame/src/physics/collision/Contact.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/GameCode.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/main.cpp",
+		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/RenderingSettings.hx",
+		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/PointMass.hx",
+		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/SpringBody.hx",
+		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/Body.hx",
+		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/World.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly3/source/main.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Contact.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Polycontact.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Polycollision.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/sweptsphere/Demo_SweptSphere/Demo_SweptSphere.cpp",
+		"/E/Dev/pirateGame/src/physics/shapes/CircleShape.hx",
+		"/E/Dev/pirateGame/src/physics/shapes/PolygonShape.hx",
+		"/E/Dev/pirateGame/bak/b17/src/physics/collision/SCDL.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly3/source/Polycollision.cpp",
+		"/E/GitHub/luxe/luxe/collision/sat/SAT2D.hx",
+		"/E/GitHub/luxe/luxe/collision/sat/Common.hx",
+		"/E/Dev/pirateGame/src/entities/Box.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 4 - Extending further for fast moving objects/source/GameCode.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly3/source/Polycontact.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/files/SpherePolygonCollision.cpp",
+		"/E/GitHub/luxe/luxe/collision/shapes/Polygon.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 7 - Rigid body dynamics/source (no rotation)/Polygon.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 4 - Extending further for fast moving objects/source/Polygon.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 1 - The method of separation axis/source/Polygon.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 1 - The method of separation axis/source/Body.h",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 1 - The method of separation axis/source/GameCode.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 1 - The method of separation axis/source/Body.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 1 - The method of separation axis/source/main.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Vector.h",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Vector.cpp",
+		"/E/Dev/pirateGame/project.flow",
+		"/E/Dev/pirateGame/Info/Olivier Renault/new/pong_collision(3)/pong_collision/pong collision/source/game code.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/new/pong_collision(3)/pong_collision/pong collision (basic)/source/game code.cpp",
+		"/E/Dev/pirateGame/src/physics/collision/DCD.hx",
+		"/E/Dev/pirateGame/src/physics/collision/shapes/PolygonShape.hx",
+		"/E/Dev/pirateGame/Info/SAT/differ/shapes/Shape.hx",
+		"/E/Dev/pirateGame/src/physics/collision/shapes/Shape.hx",
+		"/E/Dev/pirateGame/Info/SAT/Polygon/code/Example 1 - The method of separation axis/source/Polygon.cpp",
+		"/E/Dev/pirateGame/Info/SAT/differ/sat/SAT2D.hx",
+		"/E/Dev/pirateGame/Info/SAT/differ/shapes/Polygon.hx",
+		"/E/Dev/pirateGame/Info/SAT/differ/Collision.hx",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 2 - Extending the method of separating axis for collision response/source/Polygon.cpp",
+		"/E/Dev/pirateGame/Info/Box2D_old/Dynamics/b2World.cpp",
+		"/E/Dev/pirateGame/Info/Box2D_old/Dynamics/b2Island.cpp",
+		"/E/Dev/pirateGame/Info/Box2D_old/Dynamics/Contacts/b2ContactSolver.cpp",
+		"/E/Dev/pirateGame/Info/ref4/AAE---Axis-Aligned-Engine-master/test/main.js",
+		"/E/Dev/pirateGame/Info/Olivier Renault/new/box/source/Contact.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/new/box/source/Body.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/new/Collision_demo/Collision demo/source/Physics/Bodies.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/new/spheres/source/Sphere.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Contact.h",
+		"/E/Dev/pirateGame/Info/Olivier Renault/very_basic_collision/source/main.cpp",
+		"/E/Dev/pirateGame/Info/Olivier Renault/Polygon/code/Example 7 - Rigid body dynamics/source (no rotation)/Body.h",
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Body.cpp",
+		"/E/Dev/pirateGame/src/physics/collision/TOI.hx",
+		"/E/Dev/hxlua/src/LuaUtil.hx",
+		"/E/Dev/hxlua/src/LuaComponent.hx"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 91.0,
+		"where_history":
+		[
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2d-lite-js-master\\src\\main\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\dynamics\\",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\Polycolly\\code\\Tutorial 4 - Basic Arcade Collision response\\source",
+			"E:\\Dev\\JelloCE\\ref\\JelloHx_origin\\src\\com\\gamestudiohx\\jellohx\\",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\PolyColly4\\source",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\PolyColly3\\source\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\Info\\Box2D_old\\",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\Polygon\\code\\Example 7 - Rigid body dynamics\\source (no rotation)\\",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\PolyColly4\\source\\",
+			"E:\\Dev\\pirateGame\\src\\physics\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\Info\\Box2D_old\\",
+			"E:\\Dev\\pirateGame\\Info\\Box2D_old\\Dynamics\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\Box2D_v2.2.0\\Box2D\\Box2D",
+			"E:\\Dev\\pirateGame\\Info\\ref\\Box2D_v2.2.0\\Box2D\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\collision",
+			"E:\\GitHub\\hx-lua\\project\\lua",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\new",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\new\\collision_examples\\source",
+			"E:\\Dev\\pirateGame\\Info\\Olivier Renault\\sweptsphere",
+			"E:\\Dev\\pirateGame\\",
+			"E:\\Dev\\pirateGame\\src\\",
+			"E:\\Dev\\openSource\\DOOM-3-master",
+			"E:\\Dev\\openSource\\Quake-III-Arena-master",
+			"E:\\Dev\\pirateGame\\src\\",
+			"E:\\Dev\\pirateGame\\src\\physics",
+			"E:\\Dev\\pirateGame\\src\\",
+			"E:\\Dev\\pirateGame\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\src\\",
+			"E:\\Dev\\pirateGame\\ref\\nape\\",
+			"E:\\Dev\\pirateGame\\ref\\box2D\\",
+			"E:\\Dev\\pirateGame\\src\\",
+			"C:\\Dev2\\pirateGame\\src\\physics\\",
+			"C:\\GitHub\\luxe\\",
+			"C:\\Dev2\\pirateGame\\src\\physics\\",
+			"C:\\GitHub\\luxe\\phoenix\\",
+			"C:\\Dev2\\pirateGame\\src\\physics\\",
+			"C:\\Dev2\\pirateGame\\ref\\JumpFeel008\\Action",
+			"C:\\Dev2\\pirateGame\\src\\",
+			"C:\\Dev\\OpenSource\\teeworlds-master",
+			"C:\\Dev\\OpenSource\\Quake-III-Arena-master",
+			"C:\\Dev2\\pirateGame\\ref\\box2d-master\\box2D\\",
+			"C:\\Dev2\\pirateGame\\ref\\SusliX Lite\\",
+			"C:\\Dev2\\pirateGame\\ref\\SusliX Lite\\src\\",
+			"C:\\Dev2\\pirateGame\\ref\\pl-b1ae55a4e91ab4fa183e89316b2b036095d5f214\\src\\box2d\\",
+			"C:\\Dev\\OpenSource\\physics engines2\\physaxe-master\\phx",
+			"C:\\Dev\\OpenSource\\physics engines2\\chipmunk-Go",
+			"C:\\Dev\\OpenSource\\physics engines2\\physaxe-master\\phx",
+			"C:\\Dev\\OpenSource\\physics engines2\\nape",
+			"C:\\Dev\\OpenSource\\physics engines2\\matter-js-master\\src\\collision\\",
+			"C:\\Dev\\OpenSource\\physics engines2\\PhysicsJS-master\\src",
+			"C:\\Dev\\OpenSource\\physics engines2\\glaze-physics-as3-legacy-master",
+			"C:\\Dev\\OpenSource\\physics engines2\\JPE-master\\src\\",
+			"C:\\Dev\\OpenSource\\physics engines2\\JPE-master\\",
+			"C:\\Dev\\OpenSource\\physics engines2\\box2dhx-master\\box2D\\dynamics\\",
+			"C:\\Dev2\\pirateGame\\src\\physics\\",
+			"C:\\Dev\\OpenSource\\physics engines2\\Box2D_Lite",
+			"C:\\Dev\\OpenSource\\physics engines2\\matter-js-master2\\src",
+			"C:\\Dev\\OpenSource\\physics engines2\\nape",
+			"C:\\Dev\\Sublime\\Data\\sublime_haxe",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\components",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\components",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\",
+			"C:\\Dev\\hxlua\\assets\\scripts\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\",
+			"C:\\GitHub\\hx-lua\\project\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cortex Command\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cortex Command\\orks.rte.disabled\\",
+			"C:\\Dev\\hxlua\\assets",
+			"C:\\Dev\\hxlua\\src",
+			"C:\\Dev\\hxlua\\assets\\",
+			"C:\\Dev\\hxlua\\assets\\scripts\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Cortex Command\\uac.rte",
+			"C:\\Dev\\hxlua\\ref\\rgaul-sel-32fd2e5fb108\\",
+			"C:\\Dev\\hxlua\\assets\\scripts",
+			"C:\\Dev\\hxlua\\assets\\",
+			"C:\\GitHub\\luxe\\",
+			"C:\\Dev\\hxlua\\src",
+			"C:\\Dev\\hxlua\\assets\\",
+			"C:\\Dev\\hxlua\\assets\\scripts",
+			"C:\\Dev\\hxlua\\assets\\",
+			"C:\\Dev\\hxlua\\src\\assets",
+			"C:\\Dev\\hxlua\\src\\",
+			"C:\\GitHub\\hx-lua\\",
+			"C:\\Dev\\hxlua\\ref\\FEZ-master\\",
+			"C:\\Dev\\hxlua\\ref\\FEZ-master\\src\\",
+			"C:\\GitHub\\hx-lua\\",
+			"C:\\GitHub\\hx-lua_bak\\",
+			"C:\\GitHub\\hx-lua_bak\\project\\",
+			"C:\\Dev\\hxlua\\src\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\",
+			"C:\\Dev\\hxlua\\ref\\FEZ-master\\",
+			"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Don't Starve Together\\data\\scripts\\",
+			"C:\\Dev\\hxlua\\ref\\FEZ-master\\",
+			"C:\\Dev\\hxlua\\ref\\FEZ-master\\YakManExample\\",
+			"C:\\Dev\\hxlua\\ref\\rgaul-sel-32fd2e5fb108\\",
+			"C:\\GitHub\\luxe\\luxe\\",
+			"C:\\Program Files (x86)\\Lua\\5.1",
+			"C:\\Program Files (x86)\\Lua\\",
+			"C:\\Program Files (x86)\\Lua\\5.1",
+			"C:\\Program Files (x86)\\Lua\\5.2",
+			"C:\\Users\\Andrei\\Desktop\\luarocks-2.2.2-win32\\",
+			"C:\\Dev\\hxlua\\ref\\rgaul-sel-32fd2e5fb108",
+			"C:\\GitHub\\hx-lua\\",
+			"C:\\GitHub\\hx-lua\\project\\",
+			"C:\\Dev\\hxlua\\ref\\rgaul-sel-32fd2e5fb108",
+			"C:\\GitHub\\hx-lua\\project\\",
+			"C:\\Dev\\hxlua\\ref\\rgaul-sel-32fd2e5fb108",
+			"C:\\GitHub\\my\\luxe\\",
+			"C:\\Dev\\LD33\\ref\\decompile\\JumpFeel008\\Action\\",
+			"C:\\GitHub\\luxe\\luxe\\",
+			"C:\\GitHub\\luxe\\luxe\\tween\\",
+			"C:\\Dev\\LD33\\src\\",
+			"C:\\Dev\\OpenSource\\physics engines\\box2d\\box2D\\",
+			"C:\\Dev\\LD33\\src\\",
+			"C:\\Dev\\OpenSource\\physics engines\\chipmunk-Go\\",
+			"C:\\Dev\\OpenSource\\physics engines\\box2d\\box2D\\"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"m_contactList",
+			"B2ContactEdge",
+			"m_contactList",
+			"m_next",
+			"m_prev",
+			"m_next",
+			"m_prev",
+			"m_contactList",
+			"prev",
+			"m_contactList",
+			"B2ContactEdge",
+			".next",
+			"next",
+			"m_nodeA",
+			"new B2ContactEdge",
+			"B2ContactEdge",
+			"m_contactList",
+			"initialise",
+			"tfirst",
+			"tfirst < ",
+			"solveVelocityCCD",
+			"ccdTouched",
+			"sweep",
+			"isTouchedCCD",
+			"initialise",
+			"sweepEps",
+			"initialise",
+			"sweepEps",
+			"Dthreshold",
+			"correct3",
+			"solveVelocityCCD",
+			"initialise",
+			"solveVelocityCCD",
+			"initialise",
+			"solveVelocity",
+			"ccd",
+			"initialise",
+			"initialize",
+			"update(",
+			"timeOfImpact",
+			"computeTOI",
+			"solveTOI",
+			"step",
+			"solveVelocityCCD",
+			"new",
+			"find",
+			"solveVelocity",
+			"contactBaumgarte",
+			"equalizedMass",
+			"corPerc",
+			"baumgarte",
+			"equalizedMass",
+			"maxLinearCorrection",
+			"linearSlop",
+			"isCollideDiscrete",
+			"broadPhase",
+			"pn",
+			"c.pn",
+			"update",
+			"m_normalImpulse",
+			"finalizeVelocityConstraints",
+			"m_normalImpulse",
+			"reset()",
+			"reset",
+			"m_normalImpulse",
+			"reset",
+			"m_normalImpulse",
+			"normalImpulse",
+			"normalMass",
+			"velocityBias",
+			"equalizedMass",
+			"velocityBias",
+			"b2MixFriction",
+			"friction",
+			"rest",
+			"friction",
+			"tangentMass",
+			"initialize",
+			"normalImpulse",
+			"warm",
+			"queue",
+			"velo",
+			"synchronizeTransform",
+			"c0",
+			"MIN_VALUE",
+			"advance",
+			"c0",
+			"synchronizeFixtures",
+			"solve",
+			"m_sweep",
+			"solvePositionConstraints",
+			"B2PositionSolverManifold",
+			"solvePositionConstraints",
+			"synchronizeTransform",
+			"solve",
+			"m_inv_dt0",
+			"step",
+			"solve",
+			"synchronizeTransform",
+			"solvePositionConstraints",
+			"solveTOI",
+			"Update",
+			"Initialise",
+			"m_fInvMass",
+			"GetInvMass",
+			"s_fFriction",
+			"velocityIterations",
+			"dbg_world_size",
+			"contact.tfirst <=",
+			"grav",
+			"gravity",
+			"gra",
+			"grav",
+			"dbg_UseGravity",
+			"gravity",
+			"grav",
+			"gravity",
+			"contact.tfirst <",
+			"corSlop",
+			"ResolveCollision",
+			"UpdatePosition",
+			"UpdateVelocity",
+			"equalizedMass",
+			"b2_contactBaumgarte",
+			"baumgarte",
+			"b2_maxLinearCorrection",
+			"b2_linearSlop",
+			"mass"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ccdTouched",
+			"shape2",
+			"spherePos",
+			"vertex",
+			"hxl",
+			"dxl",
+			"h",
+			"l",
+			"displacement",
+			"spherePos",
+			"end",
+			"start",
+			"c2r",
+			"c1r",
+			"c1pos",
+			"c2pos",
+			"box",
+			"b1half",
+			"b2half",
+			"b1pos",
+			"b2pos",
+			"box2max",
+			"box2min",
+			"box1max",
+			"box1min",
+			"vel",
+			"b1",
+			"b2",
+			"box1.",
+			"contact",
+			"contact.velocity.",
+			"contact.velocity",
+			"contact.tlast",
+			"contact.tfirst",
+			"contact",
+			"deltaY",
+			"deltaX",
+			"py",
+			"px",
+			"import physics.shapes.CircleShape;",
+			"import physics.shapes.BoxShape;",
+			"import physics.shapes.Shape;",
+			"contact.position",
+			"position",
+			"velocity",
+			"restitution",
+			"overlap",
+			"__overlap",
+			"separation",
+			"shape2",
+			"shape1",
+			"Math.abs",
+			"mtd",
+			"extent",
+			"delta",
+			"penetration = dy + radius",
+			"penetration = dx + radius",
+			"penetration = -l + radius",
+			"penetration = l + radius",
+			"penetration = -1.0",
+			"penetration",
+			"contact.normal",
+			"contact.point",
+			"normal",
+			"point",
+			"max.y",
+			"max.x",
+			"min.y",
+			"min.x",
+			"cPos.y",
+			"cPos.x",
+			"radius",
+			"_circleoptions",
+			".box.collisionFaces",
+			"!data.shapeB.body.isStatic",
+			"!data.shapeA.body.isStatic",
+			".body.isStatic",
+			"broadphase",
+			"isSensor",
+			"box",
+			"shapeB",
+			"shapeA",
+			"shapeB",
+			"shapeA",
+			"shapeB",
+			"shapeA",
+			"shapeB",
+			"shapeA",
+			"shapeB",
+			"shapeA",
+			"box",
+			"import physics.shape.BoxShape",
+			"import physics.Shape",
+			"import physics.RigidBody",
+			"import physics.RigidBody;",
+			"bodyB",
+			"bodyA",
+			"boxShape",
+			"_sh",
+			"_shape",
+			"Shape",
+			"bodyB",
+			"bodyA",
+			"bodyB",
+			"bodyA",
+			"contact",
+			"frictionMultiplier",
+			"jumpVelocity",
+			"ApValueMass",
+			"contact",
+			"ContactSolver",
+			"contactSolver",
+			"ContactSolver",
+			"--luaAssert(",
+			"initialise",
+			"LuaEntity",
+			"TestComponent2",
+			"TestComponent",
+			"luaTrace",
+			"luatrace",
+			"luaTrace",
+			"luaAssert",
+			"luaTrace",
+			"luatrace",
+			"SampleComponent2",
+			"Call",
+			"ECall",
+			"luatrace"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "project.flow",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/sublime_flow/flow-file.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 379.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.haxe":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ld34.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Dev\\goldenCalc\\goldenCalc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Aib"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

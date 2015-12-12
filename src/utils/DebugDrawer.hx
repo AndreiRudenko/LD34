@@ -1,4 +1,4 @@
-package helpers;
+package utils;
 
 import phoenix.Color;
 import phoenix.geometry.Geometry;

@@ -2,7 +2,7 @@ package physics;
 
 import luxe.Vector;
 import physics.Body;
-import helpers.DebugDrawer;
+import utils.DebugDrawer;
 
 class Space {
 
@@ -11,8 +11,8 @@ class Space {
 
 	public var gravity:Vector;
 
-	public var ccd:Bool = true;
-	// public var ccd:Bool = false;
+	// public var ccd:Bool = true;
+	public var ccd:Bool = false;
 
 	public var bodies : haxe.ds.GenericStack<Body>;
 
@@ -43,27 +43,31 @@ class Space {
 	}
 
 	public function removeBody(b:Body){
-		b.deleted = true;
+		// b.deleted = true;
+	    bodies.remove(b);
+	    broadphase.removeBody(b);
+	    // b.destroy();
 	}
 
-	function removeDeletedObjects() {
-	    for (b in bodies) {
-	    	if(b.deleted){
-	    		bodies.remove(b);
-	    	}
-	    }
-	}
+	// function removeDeletedObjects() {
+	//     for (b in bodies) {
+	//     	if(b.deleted){
+	//     		b.destroy();
+	//     		bodies.remove(b);
+	//     	}
+	//     }
+	// }
 
 
 	public function step(dt:Float) {
 	    // trace("Space.step : start");
 
 	    // trace("Space.step : removeDeletedObjects");
-		removeDeletedObjects();
+		// removeDeletedObjects();
 
 	    // trace("Space.step : updateVelocity");
 	    for (b in bodies) {
-	    	if(b.isStatic) continue;
+	    	// if(b.isStatic) continue;
 			b.updateVelocity(dt);
 	    }
 
@@ -82,7 +86,7 @@ class Space {
 			contactSolver.solveCCD(dt);
 	    } else {
 	    	for (b in bodies) {
-				if(b.isStatic) continue;
+				// if(b.isStatic) continue;
 				b.updatePosition(dt);
 			}	
 	    }
@@ -93,6 +97,7 @@ class Space {
 	    // trace("Space.step : postSolve");
 	    contactSolver.postSolve(dt);
 
+	    // trace("Space.step : end");
 	}
 
 	public function destroy(){

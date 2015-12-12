@@ -12,7 +12,7 @@ class Physics extends luxe.Physics.PhysicsEngine {
 
         space = new Space(iterations, Luxe.physics.step_delta);
 
-        // gravity = new Vector(0, 380);
+        // gravity = new Vector(0, 180);
         // gravity = new Vector(0, 980);
         // gravity = new Vector(0, 9.807);
         // gravity = new Vector(0, 1618);

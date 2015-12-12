@@ -2,7 +2,7 @@ package physics;
 
 import luxe.Vector;
 import luxe.utils.Maths;
-import helpers.DebugDrawer;
+import utils.DebugDrawer;
 
 class ContactSolver {
 	var contacts : Map<Int, Contact>;
@@ -55,6 +55,17 @@ class ContactSolver {
 
 			bodyB.velocity.x += impx * bodyB.invMass;
 			bodyB.velocity.y += impy * bodyB.invMass;
+
+			// var normImp:Float = (-(1 + c.restitution) * normVel) * 0.5;
+
+			// var impx:Float = c.normal.x * normImp;
+			// var impy:Float = c.normal.y * normImp;
+
+			// bodyA.velocity.x -= impx;
+			// bodyA.velocity.y -= impy;
+
+			// bodyB.velocity.x += impx;
+			// bodyB.velocity.y += impy;
 
 		} else if (!bodyA.isStatic){
 

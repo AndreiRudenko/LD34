@@ -35,8 +35,8 @@ class LuxeApp {
 
         
         //Apply the values if they are set
-            _conf.window.width = 1280;
-            _conf.window.height = 720;
+            _conf.window.width = 480;
+            _conf.window.height = 800;
             _conf.window.fullscreen = false;
             _conf.window.resizable = true;
             _conf.window.borderless = false;

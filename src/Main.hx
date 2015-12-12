@@ -1,5 +1,6 @@
 
 import luxe.Input;
+import luxe.Vector;
 import components.Collider;
 import luxe.Parcel;
 import luxe.ParcelProgress;
@@ -7,7 +8,10 @@ import luxe.resource.Resource;
 import luxe.Color;
 import phoenix.Batcher;
 import phoenix.Camera;
-import helpers.Fps;
+import utils.Fps;
+import entities.Circle;
+import entities.Player;
+
 
 class Main extends luxe.Game {
     public static var hud_batcher:Batcher;
@@ -32,6 +36,28 @@ class Main extends luxe.Game {
     function assets_loaded(_) {
         create_hud();
 
+
+        new Player({
+            name : 'Player1',
+            // name_unique : true,
+            pos: new Vector(240, 600),
+            radius: 16,
+            // isStatic : true,
+            depth:2,
+            texture:Luxe.resources.texture('assets/circle.png')
+        });
+
+        for (i in 0...0) {
+            new Circle({
+                name : 'Circle' + i,
+                name_unique : true,
+                pos: new Vector(Std.random(400)+50,Std.random(400)+50),
+                radius: 16,
+                isStatic : false,
+                depth:2,
+                texture:Luxe.resources.texture('assets/circle.png')
+            });
+        }
     }
 
     function create_hud() {
@@ -46,6 +72,21 @@ class Main extends luxe.Game {
     }
 
     override function onkeyup( e:KeyEvent ) {
+
+        if(e.keycode == Key.key_n) {
+            for (i in 0...10) {
+                new Circle({
+                    name : 'Circle' + i,
+                    name_unique : true,
+                    // pos: new Vector(Std.random(400)+50,Std.random(400)+50),
+                    pos: new Vector(Std.random(400)+50,Std.random(400)-500),
+                    radius: Std.random(24) + 16,
+                    isStatic : true,
+                    depth:2,
+                    texture:Luxe.resources.texture('assets/circle.png')
+                });
+            }
+        }
 
         if(e.keycode == Key.escape) {
             Luxe.shutdown();

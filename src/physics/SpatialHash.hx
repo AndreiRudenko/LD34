@@ -8,7 +8,7 @@ import luxe.utils.Maths;
 import phoenix.geometry.QuadGeometry;
 import phoenix.geometry.RectangleGeometry;
 import phoenix.geometry.TextGeometry;
-import helpers.DebugDrawer;
+import utils.DebugDrawer;
 
 class SpatialHash {
 		/* the square cell gridLength of the grid. Must be larger than the largest shape in the space. */
@@ -109,7 +109,7 @@ class SpatialHash {
 	}
 
 	public function updateBody(b:Body){
-		if(b.isStatic) return;
+		// if(b.isStatic) return;
 		updateIndexes(b, aabbToGrid(b.aabb.min, b.aabb.max));
 		getBodyCollision(b);
 	}

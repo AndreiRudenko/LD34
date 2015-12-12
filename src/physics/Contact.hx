@@ -1,7 +1,7 @@
 package physics;
 
 import luxe.Vector;
-import helpers.DebugDrawer;
+import utils.DebugDrawer;
 
 class Contact {
 
@@ -37,6 +37,7 @@ class Contact {
 		overlap = new Vector();
 		normal = new Vector();
 		velocity = new Vector();
+		position = new Vector();
 
 		restitution = Math.max(bodyA.restitution, bodyB.restitution);
 		invMass = bodyA.invMass + bodyB.invMass;
@@ -81,8 +82,8 @@ class Contact {
 
 	public function destroy(){
 
-		bodyA.contactsArray.remove(this);
-		bodyB.contactsArray.remove(this);
+		if(bodyA != null) bodyA.contactsArray.remove(this);
+		if(bodyB != null) bodyB.contactsArray.remove(this);
 
 	    bodyA = null;
 	    bodyB = null;
@@ -111,6 +112,7 @@ class Contact {
 
 	inline public static function removeContact(con:Contact, contacts:Map<Int, Contact>){
 		// trace('removeContact ' + con.id);
+
 		con.destroy();
 		contacts.remove(con.id);
 		Physics.space.contactsCount--;

@@ -1,4 +1,4 @@
-package helpers;
+package utils;
 
 import luxe.Text;
 import luxe.Color;

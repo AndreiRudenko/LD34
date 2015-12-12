@@ -4,7 +4,7 @@ import luxe.Vector;
 import luxe.utils.Maths;
 import physics.Contact;
 
-import helpers.DebugDrawer;
+import utils.DebugDrawer;
 
 class SCDL {
 	
@@ -15,8 +15,8 @@ class SCDL {
     public static function testCircleCircle(contact:Contact) : Bool {
     	contact.update();
 
-		var circle1:Body = contact.bodyA;
-		var circle2:Body = contact.bodyB;
+		var circle1:Body = contact.bodyB;
+		var circle2:Body = contact.bodyA;
 
             //add both radii together to get the colliding distance
         var totalRadius:Float = circle1.radius + circle2.radius;

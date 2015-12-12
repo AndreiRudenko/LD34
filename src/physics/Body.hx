@@ -10,7 +10,7 @@ import luxe.Log;
 import physics.Space;
 import physics.AABB;
 import physics.Contact;
-import helpers.DebugDrawer;
+import utils.DebugDrawer;
 
 class Body {
     public static var ID (default, null):Int = 0;
@@ -35,7 +35,6 @@ class Body {
 
     public var isStatic:Bool; 
     public var isSensor:Bool; 
-    public var deleted:Bool; 
 
 // Circle 
     public var radius:Float;
@@ -65,7 +64,7 @@ class Body {
 
 
         radius = Log.def(_options.radius, 16);
-        mass = Log.def(_options.mass, 10);
+        mass = Log.def(_options.mass, 1);
         damping = Log.def(_options.damping, 0);
         gravityScale = Log.def(_options.gravityScale, 1);
         maxSpeed = Log.def(_options.maxSpeed, new Vector(10000, 10000));
@@ -83,18 +82,22 @@ class Body {
         contactsArray = [];
         gridIndex = [];
 
-        deleted = false;
-
         space.addBody(this);
     }
 
     public function destroy() {
 
+        for (c in contactsArray) {
+            c.destroy();
+        }
+
+        space.removeBody(this);
+        space = null;
         position = null;
         velocity = null;
         force = null;
         maxSpeed = null;
-        space = null;
+        
     }
 
     inline public function updateVelocity(dt:Float){
@@ -113,7 +116,7 @@ class Body {
 
         updateAABB(dt);
 
-        DebugDrawer.draw_circle(position, radius, DebugDrawer.color_yellow);
+        // DebugDrawer.draw_circle(position, radius, DebugDrawer.color_yellow);
     }
 
     inline public function updatePosition(dt:Float){
@@ -182,7 +185,7 @@ class Body {
         if(space != null){
             space.removeBody(this);
             space = _space;
-            space.addBody(this);
+            if(space != null) space.addBody(this);
         } else {
             space = _space;
         }

@@ -2,8 +2,8 @@
 
   luxe:{
     window: {
-      width:1280,
-      height:720,
+      width:480,
+      height:800,
       title:'LD34',
       fullscreen:false,
       resizable:true,

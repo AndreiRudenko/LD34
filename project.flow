@@ -1,0 +1,36 @@
+{
+
+  luxe:{
+    window: {
+      width:1280,
+      height:720,
+      title:'LD34',
+      fullscreen:false,
+      resizable:true,
+      borderless:false
+    }
+  },
+
+  project : {
+    name : 'ld34',
+    version : '1.0.0',
+    author : 'andreirudenko',
+
+    app : {
+      name : 'ld34',
+      package : 'com.andreirudenko.ld34'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}

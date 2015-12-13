@@ -15,6 +15,7 @@ import utils.Bits;
 import components.PlayerInput;
 import components.PlayerBody;
 import components.PlayerRun;
+import physics.Body;
 
 class Player extends Actor {
 	var _options:PlayerOptions;
@@ -33,24 +34,31 @@ class Player extends Actor {
 
 		add(new PlayerInput());
 
-		add(new PlayerBody({
+		body = new PlayerBody({
 			name : 'PlayerBody',
 		    segments : 9,
 		    radius : 16,
 		    step : 16,
             texture : Luxe.resources.texture('assets/circle.png')
-			}));
+			});
+
+		add(body);
 
 		add(new PlayerRun());
 	}
 
 	override function onCollision(c:Actor.CollideEvent) {
 		// trace("Player is onCollision!");
+		if(c.body.tag == 'ant'){
+			var segm:Body = c.contact.bodyA == c.body ? c.contact.bodyB : c.contact.bodyA; 
+			body.addAnt(c.body, segm, c.contact.overlap);
+		}
 	}
 
 	override function update(dt:Float) {
         // trace("Player update");
         // trace(get("Body").body.mass);
+        Main.playerPos.copy_from(pos);
 	}
 
 	// override function ondestroy() {

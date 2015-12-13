@@ -17,6 +17,7 @@ class Physics extends luxe.Physics.PhysicsEngine {
         // gravity = new Vector(0, 9.807);
         // gravity = new Vector(0, 1618);
         gravity = new Vector(0, 0);
+        // gravity = new Vector(0, 100);
 
     } //init
 
@@ -25,7 +26,7 @@ class Physics extends luxe.Physics.PhysicsEngine {
         if(!paused) {
             // trace("PhysicsEngine update");
 
-            space.step( Luxe.physics.step_delta * Luxe.timescale);
+            // space.step( Luxe.physics.step_delta * Luxe.timescale);
         } //paused
 
     } //update

@@ -80,6 +80,15 @@ class Mathf{
         
         return ret;
     }
+
+    inline public static function distance(value1:Vector, value2:Vector):Float {
+        var num2:Float = value1.x - value2.x;
+        var num:Float = value1.y - value2.y;
+
+        return Math.sqrt((num2 * num2) + (num * num));
+    }
+
+
 }
 
 

@@ -27,8 +27,8 @@ class SpatialHash {
 	var gridWidthRes:Float;
 	var gridHeightRes:Float;
 
-	var debugMode:Bool = true;
-	// var debugMode:Bool = false;
+	// var debugMode:Bool = true;
+	var debugMode:Bool = false;
 
 	var debugBoxes : haxe.ds.Vector<DebugObject>;
 	var collPairsText:TextGeometry;

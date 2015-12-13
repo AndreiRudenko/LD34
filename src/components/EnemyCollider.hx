@@ -32,12 +32,14 @@ class EnemyCollider extends Collider{
     override function update(dt:Float) {
         
         super.update(dt);
-        body.velocity.y = 150;
+        // body.velocity.y = Main.speed;
+        // body.velocity.y += 10;
         // body.position.y += 1;
         // body.velocity.x = 0;
         if(body.position.y > Luxe.screen.h + body.radius){
             entity.destroy();
         }
+        // trace('vel = ' + body.velocity.y);
     }
 
 }

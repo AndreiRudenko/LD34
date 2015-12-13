@@ -18,6 +18,7 @@ class Collider extends Component{
 
     override function init(){
         body = new Body({
+            entity : entity,
             space : Physics.space,
             position : pos.clone(),
             tag : _options.tag, 
@@ -26,6 +27,7 @@ class Collider extends Component{
             collisionMask : _options.collisionMask,
             isSensor : _options.isSensor,
             isStatic : _options.isStatic,
+            damping : _options.damping,
             gravityScale : _options.gravityScale
             });
     }
@@ -61,7 +63,7 @@ class Collider extends Component{
     	// 	body.position.y = body.radius;
     	// }
 
-        pos.copy_from(body.position).int();
+        pos.copy_from(body.position);
 
     	// if(body.position.y > Luxe.screen.h + body.radius){
     	// 	entity.destroy();
@@ -86,5 +88,6 @@ typedef ColliderOptions = {
     @:optional var collisionMask : Int;
     @:optional var radius : Float;
     @:optional var gravityScale : Float;
+    @:optional var damping : Float;
 
 } //ColliderOptions

@@ -10,40 +10,42 @@ import luxe.Log;
 
 import utils.DebugDrawer;
 
-import components.Collider;
+import components.AntInput;
+import components.AntRun;
+import components.AntAI;
 import components.EnemyCollider;
 
-class Circle extends Actor {
-	var _options:CircleOptions;
+class Ant extends Actor {
+	var _options:AntOptions;
 
-	public function new(_opt:CircleOptions ) {
+	public function new(_opt:AntOptions ) {
 		_options = _opt;
 		super(_options);
-		if(_options.radius > 16){
-        	texture = Luxe.resources.texture('assets/rock1.png');
-        	_options.isStatic = true;
-		} else {
-        	texture = Luxe.resources.texture('assets/rock2.png');
-        	_options.isStatic = false;
-		}
+
+        texture = Luxe.resources.texture('assets/ant.png');
+        // _options.isStatic = false;
 	}
 
 	override function init() {
         // trace(name + ' init Player');
 		super.init();
-
+		this.depth = 12;
 		// this.visible = false;
 		// this.color = Color.random();
 
         size.x = Log.def(_options.radius, 16) * 2;
         size.y = Log.def(_options.radius, 16) * 2;
 
+        add(new AntInput());
 		add(new EnemyCollider({
-			tag : 'circle',
+			tag : 'ant',
 			radius : _options.radius,
-			isStatic : _options.isStatic,
+			isStatic : false,
 			damping : 5
 		}));
+        add(new AntAI());
+        add(new AntRun());
+
 	}
 
 	override function onCollision(c:Actor.CollideEvent) {
@@ -53,6 +55,7 @@ class Circle extends Actor {
 	override function update(dt:Float) {
         // trace("Player update");
         // trace(get("Body").body.mass);
+
 	}
 
 	// override function ondestroy() {
@@ -60,9 +63,9 @@ class Circle extends Actor {
 
 } //Player
 
-typedef CircleOptions = {
+typedef AntOptions = {
 	> SpriteOptions,
 
-    @:optional var isStatic : Bool;
+    // @:optional var isStatic : Bool;
     @:optional var radius : Float;
 } //CircleOptions

@@ -16,6 +16,7 @@ class Body {
     public static var ID (default, null):Int = 0;
 
     public var id(default, null):Int;
+    public var entity(default, null):Entity;
     public var tag:String;
 
     public var space( default, set ):Space;
@@ -56,6 +57,7 @@ class Body {
         tag = Log.def(_options.tag, '');
 
         space = _options.space;
+        entity = _options.entity;
 
         position = Log.def(_options.position, new Vector(100, 100));
         nextPos = position.clone();
@@ -64,7 +66,7 @@ class Body {
 
 
         radius = Log.def(_options.radius, 16);
-        mass = Log.def(_options.mass, 1);
+        mass = Log.def(_options.mass, radius * 0.1);
         damping = Log.def(_options.damping, 0);
         gravityScale = Log.def(_options.gravityScale, 1);
         maxSpeed = Log.def(_options.maxSpeed, new Vector(10000, 10000));
@@ -143,6 +145,10 @@ class Body {
         gridIndex.splice(0, gridIndex.length);
     }
 
+    inline public function onCollisionEventFire(_body:Body, contact:Contact){
+        entity.events.fire('onCollision', {contact : contact, body : _body});
+    }
+
     // force
     inline public function addForce(_x:Float, _y:Float){
         force.x += _x;
@@ -211,6 +217,7 @@ typedef BodyOptions = {
 
     var space : Space;
     var position : Vector;
+    var entity : Entity;
     @:optional var tag : String;
     @:optional var gravityScale : Float;
     @:optional var radius : Float;

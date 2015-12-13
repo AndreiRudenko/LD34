@@ -123,8 +123,9 @@ class ContactSolver {
 			if(c.isCollide){
 				// Collision.SetEdgeCollision(c);
 				// ApplyFriction(c, dt);
-				// c.shape1.onCollisionEventFire(c.shape2, c);
-				// c.shape2.onCollisionEventFire(c.shape1, c);
+				c.bodyA.onCollisionEventFire(c.bodyB, c);
+				c.bodyB.onCollisionEventFire(c.bodyA, c);
+
 			}
 			c.isCollide = false;
 			// c.draw();

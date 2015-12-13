@@ -18,8 +18,9 @@ class PlayerRun extends Component{
     var body:Body;
     var pInput:PlayerInput;
 
-    var accel:Float;
+    public var accel:Float;
     var friction:Float;
+    var mainSpeed:Float;
 
     public function new(){
         super({name : 'Run'});
@@ -39,11 +40,16 @@ class PlayerRun extends Component{
         active = true;
 
         var m:Float = 60;
-        accel = 40 * m;
+        // accel = 40 * m;
         friction = 0.1 * m;
 
-        speed = 5 * m;
+        // speed = 5 * m;
+        speed = 0.5;
 
+        accel = 4;
+
+        mainSpeed = 0;
+        // friction = 0.01;
 
     }
 
@@ -53,20 +59,21 @@ class PlayerRun extends Component{
 
             // accel = airAccel;
             // friction = airFriction;
+        mainSpeed = Main.speed;
+        
         if(speed > 0) {
-            if(pInput.moveDirection.x > 0 && body.velocity.x <= speed){
+            if(pInput.moveDirection.x > 0 && body.velocity.x <= speed * mainSpeed){
                 if(body.velocity.x < 0) {
                     body.velocity.x = Mathf.ApFrictionT(body.velocity.x, friction, dt);
                 }
-                body.velocity.x = Mathf.ApValueT(body.velocity.x, speed, accel, dt);
-            } else if(pInput.moveDirection.x < 0 && body.velocity.x >= -speed){
+                body.velocity.x = Mathf.ApValueT(body.velocity.x, speed * mainSpeed, accel * mainSpeed, dt);
+            } else if(pInput.moveDirection.x < 0 && body.velocity.x >= -speed * mainSpeed){
                 if(body.velocity.x > 0) {
                     body.velocity.x = Mathf.ApFrictionT(body.velocity.x, friction, dt);
                 }
-                body.velocity.x = Mathf.ApValueT(body.velocity.x, -speed, accel, dt);
+                body.velocity.x = Mathf.ApValueT(body.velocity.x, -speed * mainSpeed, accel * mainSpeed, dt);
             } else {
                 body.velocity.x = Mathf.ApFrictionT(body.velocity.x, friction, dt);
-
             }
         }
 

@@ -32,6 +32,6 @@ class Actor extends Sprite {
 } 
 
 typedef CollideEvent = {
-    var data : Contact;
+    var contact : Contact;
     var body : Body;
 }

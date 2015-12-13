@@ -1,6 +1,8 @@
 {
     "textures" : [
-        { "id" : "assets/test.png" },
-        { "id" : "assets/circle.png" }
+        { "id" : "assets/circle.png" },
+        { "id" : "assets/rock1.png" },
+        { "id" : "assets/rock2.png" },
+        { "id" : "assets/ant.png" }
     ]
 }

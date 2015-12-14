@@ -22,7 +22,11 @@ class Ant extends Actor {
 		_options = _opt;
 		super(_options);
 
+
         texture = Luxe.resources.texture('assets/ant.png');
+
+        texture.generate_mipmaps();
+        
         // _options.isStatic = false;
 	}
 

@@ -1,8 +1,19 @@
 {
     "textures" : [
-        { "id" : "assets/circle.png" },
+        { "id" : "assets/menu.png" },
+        { "id" : "assets/menu2.png" },
+        { "id" : "assets/head.png" },
+        { "id" : "assets/segment1.png" },
+        { "id" : "assets/segment2.png" },
         { "id" : "assets/rock1.png" },
         { "id" : "assets/rock2.png" },
+        { "id" : "assets/tile1.png" },
+        { "id" : "assets/poop.png" },
         { "id" : "assets/ant.png" }
+    ],
+    "sounds" : [
+        { "id" : "assets/eat.ogg", "name" : "eat", "is_stream" : false },
+        { "id" : "assets/hit.ogg", "name" : "hit", "is_stream" : false },
+        { "id" : "assets/theme2.ogg", "name" : "theme2", "is_stream" : false }
     ]
 }

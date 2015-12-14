@@ -46,7 +46,7 @@ class PlayerRun extends Component{
         // speed = 5 * m;
         speed = 0.5;
 
-        accel = 4;
+        accel = 2;
 
         mainSpeed = 0;
         // friction = 0.01;

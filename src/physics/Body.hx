@@ -146,6 +146,7 @@ class Body {
     }
 
     inline public function onCollisionEventFire(_body:Body, contact:Contact){
+        if(entity.destroyed || _body == null) return;
         entity.events.fire('onCollision', {contact : contact, body : _body});
     }
 

@@ -168,6 +168,10 @@ class SpatialHash {
 	function aabbToGrid(_min:Vector, _max:Vector):Array<Int> {
 		var arr:Array<Int> = [];
 
+		if(_max.x < 0 || _max.y < 0 || _min.x > gridWidthRes || _min.y > gridHeightRes){
+			return arr;
+		}
+
 		var aabbMinX:Int = Maths.clampi(getIndex(_min.x), 0, gridWidth-1);
 		var aabbMinY:Int = Maths.clampi(getIndex(_min.y), 0, gridHeight-1);
 		var aabbMaxX:Int = Maths.clampi(getIndex(_max.x), 0, gridWidth-1);

@@ -26,8 +26,10 @@ class Actor extends Sprite {
 	// override function update(dt:Float) {
 	// }	
 
-	// override function ondestroy() {
-	// }
+	override function ondestroy() {
+		events.unlisten('onCollision');
+		super.ondestroy();
+	}
 
 } 
 

@@ -32,6 +32,7 @@ class ContactSolver {
 
 	public function solveContactVelocity(c:Contact){
 		if(c.invMass == 0) return;
+	    if(c.bodyA.isSensor || c.bodyB.isSensor) return;
 
 		var bodyA:Body = c.bodyA;
 		var bodyB:Body = c.bodyB;
@@ -96,6 +97,7 @@ class ContactSolver {
 
 				if(!Collision.IntersectDiscrete(c)) continue;
 	    		if(c.separation <= 0 || c.invMass == 0) continue;
+	    		if(c.bodyA.isSensor || c.bodyB.isSensor) continue;
 
 				bodyA = c.bodyA;
 				bodyB = c.bodyB;
@@ -123,8 +125,11 @@ class ContactSolver {
 			if(c.isCollide){
 				// Collision.SetEdgeCollision(c);
 				// ApplyFriction(c, dt);
-				c.bodyA.onCollisionEventFire(c.bodyB, c);
-				c.bodyB.onCollisionEventFire(c.bodyA, c);
+
+				
+
+				if(c.bodyA != null) c.bodyA.onCollisionEventFire(c.bodyB, c);
+				if(c.bodyB != null) c.bodyB.onCollisionEventFire(c.bodyA, c);
 
 			}
 			c.isCollide = false;

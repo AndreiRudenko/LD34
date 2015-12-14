@@ -3,31 +3,28 @@ package utils;
 import luxe.Text;
 import luxe.Color;
 import luxe.Vector;
-import luxe.Entity;
+import luxe.Log.*;
+import luxe.options.TextOptions;
 
-import phoenix.Batcher;
+class Fps extends Text {
 
-class Fps extends Entity {
-	var fps_text : Text;
+    public function new( ?_options:luxe.options.TextOptions ) {
 
-	public function new(?_batcher:Batcher) {
-		super({name : "Fps"});
+        def(_options, {});
+        def(_options.name, "fps");
+        def(_options.pos, new Vector(Luxe.screen.w - 5, 5));
+        def(_options.point_size, 14);
+        def(_options.align, TextAlign.right);
 
-		var batcher = _batcher != null ? _batcher : Luxe.renderer.batcher;
+        super(_options);
 
-		fps_text = new luxe.Text({
-            color : new Color(1,1,1,1),
-            pos : new Vector(Luxe.screen.w-90,5),
-            font : Luxe.renderer.font,
-            depth : 100,
-            point_size : 16,
-            batcher : batcher
-        });
-	}
+    } //new
 
+    public override function update(dt:Float) {
 
-	public override function update(dt:Float) {
-		// fps_text.text = 'fps : ' + Math.round(1.0/dt);
-		fps_text.text = 'fps : ' + Math.round(1.0/Luxe.debug.dt_average);
-	}
-}
+        // text = 'fps : ' + Math.round(1.0/dt);
+        text = 'FPS : ' + Math.round(1.0/Luxe.debug.dt_average);
+
+    }
+
+} 

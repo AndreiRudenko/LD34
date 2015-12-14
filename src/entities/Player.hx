@@ -19,7 +19,7 @@ import physics.Body;
 
 class Player extends Actor {
 	var _options:PlayerOptions;
-	var body:PlayerBody;
+	public var body:PlayerBody;
 
 	public function new(_opt:PlayerOptions ) {
 		_options = _opt;
@@ -30,16 +30,20 @@ class Player extends Actor {
         // trace(name + ' init Player');
 		super.init();
 
-		this.visible = false;
-
+		// this.visible = false;
+		this.depth = 9;
+		this.size.set_xy(_options.radius * 2, _options.radius * 2);
+		this.origin.y = _options.radius * 2.2;
+		// this.scale.x = 2;
+		// this.scale.y = 2;
 		add(new PlayerInput());
 
 		body = new PlayerBody({
 			name : 'PlayerBody',
 		    segments : 9,
-		    radius : 16,
+		    radius : _options.radius,
 		    step : 16,
-            texture : Luxe.resources.texture('assets/circle.png')
+            texture : Luxe.resources.texture('assets/segment1.png')
 			});
 
 		add(body);
@@ -59,9 +63,11 @@ class Player extends Actor {
         // trace("Player update");
         // trace(get("Body").body.mass);
         Main.playerPos.copy_from(pos);
+        Main.playerScale = scale.x;
 	}
 
 	// override function ondestroy() {
+	// 	super.ondestroy();
 	// }
 
 } //Player

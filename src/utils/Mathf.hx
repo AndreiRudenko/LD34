@@ -88,7 +88,9 @@ class Mathf{
         return Math.sqrt((num2 * num2) + (num * num));
     }
 
-
+    inline public static function angle(vector1:Vector, vector2:Vector):Float {
+        return Math.atan2(vector1.y - vector2.y, vector1.x - vector2.x);
+    }
 }
 
 

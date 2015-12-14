@@ -26,6 +26,7 @@ class Circle extends Actor {
         	texture = Luxe.resources.texture('assets/rock2.png');
         	_options.isStatic = false;
 		}
+		texture.generate_mipmaps();
 	}
 
 	override function init() {

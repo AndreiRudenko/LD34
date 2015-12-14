@@ -3,7 +3,7 @@
   luxe:{
     window: {
       width:360,
-      height:590,
+      height:600,
       title:'LD34',
       fullscreen:false,
       resizable:true,

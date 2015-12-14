@@ -1,2 +1,4 @@
-ludumdare 34
-https://dl.dropboxusercontent.com/u/91798273/devlog/ld34_4.gif
+My first ludumdare entry 
+LD34
+
+http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=47736

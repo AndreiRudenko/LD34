@@ -25,7 +25,7 @@ class Spawner  {
     var diffNum:Int = 0;
 
     public function new(){
-        diff = [1,2,3,1,3,4,2,4,5,1,2,4,2,3,5,2,1,3,4,1,3,4,2,4,5,1,4,5,2,3,6,2,2,2,3,5,2,1,3,4,1,3,4,2,4,6,1,4,5,2,3,6,2,1,3,4,2,1,7,6,3];
+        diff = [1,2,3,1,3,4,2,4,5,1,2,4,2,3,5,2,1,3,4,1,3,4,2,4,5,1,4,5,2,3,6,2,2,2,3,5,2,1,3,4,1,3,4,2,4,6,1,4,5,2,3,6,2,1,3,4,2,1,7,6,3,1,2];
         rocksAmount = 2;
         sandAmount = 2;
         antsAmount = 2;
@@ -38,7 +38,7 @@ class Spawner  {
             dDist += diffMaxDist;
 
             diffNum++;
-            if(diff[diffNum] == null){
+            if(diffNum >= diff.length-1){
                 diffNum = 0;
             }
             rocksAmount = diff[diffNum];

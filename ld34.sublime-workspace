@@ -4,11 +4,99 @@
 		"selected_items":
 		[
 			[
-				"coll",
-				"p· collisionMask	Int"
+				"max",
+				"maxSpeedText"
+			],
+			[
+				"spt",
+				"maxSpeedText"
+			],
+			[
+				"v",
+				"p· visible	Bool"
+			],
+			[
+				"spa",
+				"p· space	Int"
+			],
+			[
+				"he",
+				"health"
+			],
+			[
+				"ga",
+				"game_is_started"
+			],
+			[
+				"h",
+				"p· height	Float"
+			],
+			[
+				"ant",
+				"ants"
+			],
+			[
+				"de",
+				"m· destroy	 "
+			],
+			[
+				"m",
+				"p· mid	luxe.Vector"
+			],
+			[
+				"w",
+				"p· width	Float"
+			],
+			[
+				"seg",
+				"segments"
+			],
+			[
+				"P",
+				"Poop"
+			],
+			[
+				"p",
+				"m· push	Int"
+			],
+			[
+				"tex",
+				"Texture"
+			],
+			[
+				"sub",
+				"m· subtractScalar	 "
+			],
+			[
+				"a",
+				"angle"
+			],
+			[
+				"move",
+				"movementTime"
+			],
+			[
+				"ro",
+				"p· rotation_z	Float"
+			],
+			[
+				"wi",
+				"gridWidthRes"
+			],
+			[
+				"mi",
+				"m· generate_mipmaps	 "
 			],
 			[
 				"co",
+				"p· collisionGroup	Int"
+			],
+			[
+				"S",
+				"Spawner"
+			],
+			[
+				"coll",
 				"p· collisionMask	Int"
 			],
 			[
@@ -28,14 +116,6 @@
 				"entity"
 			],
 			[
-				"de",
-				"p· destroyed	Bool"
-			],
-			[
-				"ant",
-				"p· AntRun	AntRun"
-			],
-			[
 				"_op",
 				"_options"
 			],
@@ -44,24 +124,12 @@
 				"PlayerBody"
 			],
 			[
-				"he",
-				"headposY"
-			],
-			[
 				"pl",
 				"p· PlayerBody	PlayerBody"
 			],
 			[
 				"of",
 				"offset"
-			],
-			[
-				"S",
-				"BodySegment"
-			],
-			[
-				"tex",
-				"texture"
 			],
 			[
 				"po",
@@ -184,10 +252,6 @@
 				"p· lengthsq	Float"
 			],
 			[
-				"v",
-				"p· transformedVertices	Array<luxe.Vector>"
-			],
-			[
 				"set",
 				"m· set_xy	 "
 			],
@@ -268,10 +332,6 @@
 				"invMass"
 			],
 			[
-				"p",
-				"color_purple	phoenix.Color"
-			],
-			[
 				"dr",
 				"draw_aabb	function"
 			],
@@ -320,10 +380,6 @@
 				"findClosestPointOnBox"
 			],
 			[
-				"m",
-				"min	luxe.Vector"
-			],
-			[
 				"s",
 				"shape1	physics.shapes.Shape"
 			],
@@ -346,10 +402,6 @@
 			[
 				"ma",
 				"max	luxe.Vector"
-			],
-			[
-				"a",
-				"shapeA	physics.Shape"
 			],
 			[
 				"Ci",
@@ -402,10 +454,6 @@
 			[
 				"tav",
 				"tangentVelocity"
-			],
-			[
-				"P",
-				"PX"
 			],
 			[
 				"tan",
@@ -466,54 +514,6 @@
 			[
 				"e",
 				"empty	function"
-			],
-			[
-				"enti",
-				"entities"
-			],
-			[
-				"ne",
-				"new Vec	new Vector()"
-			],
-			[
-				"compo",
-				"Components"
-			],
-			[
-				"asse",
-				"assertnull"
-			],
-			[
-				"ge",
-				"getName"
-			],
-			[
-				"fo",
-				"forp	for k,v in pairs()"
-			],
-			[
-				"ass",
-				"assertlua"
-			],
-			[
-				"scene",
-				"sceneName"
-			],
-			[
-				"com",
-				"comp1	local"
-			],
-			[
-				"ent",
-				"entities"
-			],
-			[
-				"to",
-				"toString"
-			],
-			[
-				"tes",
-				"testEntity"
 			]
 		]
 	},
@@ -523,39 +523,49 @@
 			"file": "src/Main.hx",
 			"settings":
 			{
-				"buffer_size": 4834,
+				"buffer_size": 8607,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/physics/Body.hx",
+			"file": "src/physics/SpatialHash.hx",
 			"settings":
 			{
-				"buffer_size": 5913,
+				"buffer_size": 6738,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/Physics.hx",
+			"file": "project.flow",
 			"settings":
 			{
-				"buffer_size": 1396,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/physics/ContactSolver.hx",
-			"settings":
-			{
-				"buffer_size": 4304,
+				"buffer_size": 456,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/components/Collider.hx",
+			"file": "src/game/Spawner.hx",
 			"settings":
 			{
-				"buffer_size": 2671,
+				"buffer_size": 3707,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 30 files for \"game_is_started\" (case sensitive, whole word)\n\nE:\\Dev\\LD34\\src\\components\\PlayerBody.hx:\n  304:             Main.game_is_started = false;\n\nE:\\Dev\\LD34\\src\\Main.hx:\n   27:     public static var game_is_started:Bool = false;\n  144:         game_is_started = true;\n  238:         if(!game_is_started) return;\n  255:             game_is_started = false;\n\n5 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 400,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/components/PlayerBody.hx",
+			"settings":
+			{
+				"buffer_size": 13017,
 				"line_ending": "Windows"
 			}
 		},
@@ -568,26 +578,26 @@
 			}
 		},
 		{
-			"file": "src/components/PlayerBody.hx",
+			"file": "src/physics/ContactSolver.hx",
 			"settings":
 			{
-				"buffer_size": 7672,
+				"buffer_size": 4463,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/entities/Player.hx",
+			"file": "src/entities/Actor.hx",
 			"settings":
 			{
-				"buffer_size": 1488,
+				"buffer_size": 656,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/entities/Circle.hx",
+			"file": "src/physics/Space.hx",
 			"settings":
 			{
-				"buffer_size": 1432,
+				"buffer_size": 2215,
 				"line_ending": "Windows"
 			}
 		}
@@ -788,32 +798,42 @@
 		"/E/Dev/LD34/src",
 		"/E/Dev/LD34/src/components",
 		"/E/Dev/LD34/src/entities",
+		"/E/Dev/LD34/src/game",
 		"/E/Dev/LD34/src/physics",
 		"/E/Dev/LD34/src/utils"
 	],
 	"file_history":
 	[
 		"/E/Dev/LD34/README.md",
-		"/E/Dev/LD34/src/entities/Ant.hx",
+		"/E/Dev/LD34/src/game/Spawner.hx",
+		"/E/Dev/LD34/project.flow",
+		"/E/Dev/LD34/bin/web/index.html",
+		"/E/Dev/LD34/assets/parcel.json",
+		"/E/Dev/LD34/src/entities/Player.hx",
+		"/E/Dev/LD34/src/entities/Poop.hx",
+		"/E/Dev/LD34/src/physics/Body.hx",
+		"/E/Dev/LD34/src/physics/ContactSolver.hx",
 		"/E/Dev/LD34/src/components/AntAI.hx",
+		"/E/Dev/LD34/src/entities/Circle.hx",
+		"/E/Dev/LD34/src/Physics.hx",
+		"/E/Dev/JelloCE/ref/jelloBlob/utils/JelloVectorTools.hx",
+		"/E/Dev/LD34/src/utils/Mathf.hx",
+		"/E/Dev/LD34/src/components/Collider.hx",
+		"/E/Dev/LD34/src/components/PlayerRun.hx",
+		"/E/Dev/JelloCE/ref/jello/JelloVectorTools.hx",
+		"/E/Dev/LD34/src/entities/Ant.hx",
+		"/E/Dev/LD34/src/physics/SpatialHash.hx",
+		"/E/Dev/LD34/src/utils/Fps.hx",
 		"/E/Dev/LD34/src/components/EnemyCollider.hx",
 		"/E/Dev/LD34/src/components/AntRun.hx",
-		"/E/Dev/LD34/src/utils/Mathf.hx",
 		"/E/Dev/LD34/src/components/PlayerBody.hx",
 		"/E/Dev/LD34/src/entities/Actor.hx",
 		"/E/Dev/pirateGame/src/physics/shapes/Shape.hx",
-		"/E/Dev/JelloCE/ref/jello/JelloVectorTools.hx",
-		"/E/Dev/LD34/src/physics/SpatialHash.hx",
-		"/E/Dev/LD34/src/components/Collider.hx",
 		"/E/Dev/LD34/src/components/PlayerCollider.hx",
-		"/E/Dev/LD34/src/entities/Player.hx",
-		"/E/Dev/LD34/src/components/PlayerRun.hx",
 		"/E/Dev/LD34/src/components/AntInput.hx",
 		"/E/Dev/LD34/src/components/PlayerInput - копия.hx",
 		"/E/Dev/LD34/src/components/PlayerInput.hx",
-		"/E/Dev/LD34/assets/parcel.json",
 		"/E/Dev/LD34/src/physics/Space.hx",
-		"/E/Dev/LD34/src/Physics.hx",
 		"/E/Dev/pirateGame/src/components/player/PlayerSettings.hx",
 		"/E/Dev/pirateGame/src/components/player/Run.hx",
 		"/E/Dev/pirateGame/src/components/player/Customize.hx",
@@ -830,18 +850,13 @@
 		"/E/Dev/LD34/src/utils/Bits.hx",
 		"/E/Dev/pirateGame/src/game/Constants.hx",
 		"/E/Dev/pirateGame/src/game/Bits.hx",
-		"/E/Dev/LD34/src/physics/ContactSolver.hx",
 		"/E/Dev/LD34/src/physics/SCDL.hx",
-		"/E/Dev/LD34/src/entities/Circle.hx",
-		"/E/Dev/LD34/src/physics/Body.hx",
 		"/E/Dev/LD34/src/physics/Contact.hx",
-		"/E/Dev/LD34/src/utils/Fps.hx",
 		"/E/Dev/LD34/src/utils/DebugDrawer.hx",
 		"/E/Dev/JelloCE/ref/port/src/Main.hx",
 		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/SpringBody.hx",
 		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/VectorTools.hx",
 		"/E/Dev/pirateGame/src/Main.hx",
-		"/E/Dev/LD34/project.flow",
 		"/E/Dev/pirateGame/src/entities/Box.hx",
 		"/E/Dev/pirateGame/src/components/physics/Collider.hx",
 		"/E/Dev/pirateGame/src/components/physics/Body.hx",
@@ -916,11 +931,7 @@
 		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/PointMass.hx",
 		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/Body.hx",
 		"/E/Dev/JelloCE/ref/JelloHx_origin/src/com/gamestudiohx/jellohx/World.hx",
-		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly3/source/main.cpp",
-		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Contact.cpp",
-		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Polycontact.cpp",
-		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly4/source/Polycollision.cpp",
-		"/E/Dev/pirateGame/Info/Olivier Renault/sweptsphere/Demo_SweptSphere/Demo_SweptSphere.cpp"
+		"/E/Dev/pirateGame/Info/Olivier Renault/PolyColly3/source/main.cpp"
 	],
 	"find":
 	{
@@ -931,6 +942,7 @@
 		"height": 91.0,
 		"where_history":
 		[
+			"E:\\Dev\\LD34\\src\\",
 			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
 			"E:\\Dev\\pirateGame\\Info\\ref\\box2d-lite-js-master\\src\\main\\",
 			"E:\\Dev\\pirateGame\\Info\\ref\\box2D\\",
@@ -1057,15 +1069,28 @@
 			"C:\\Dev\\LD33\\src\\",
 			"C:\\Dev\\OpenSource\\physics engines\\box2d\\box2D\\",
 			"C:\\Dev\\LD33\\src\\",
-			"C:\\Dev\\OpenSource\\physics engines\\chipmunk-Go\\",
-			"C:\\Dev\\OpenSource\\physics engines\\box2d\\box2D\\"
+			"C:\\Dev\\OpenSource\\physics engines\\chipmunk-Go\\"
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"playerPos",
+			"game_is_started",
+			"maxSpeedText",
+			"distance",
+			"distanceText",
+			"tag",
+			"fps",
+			"bg",
+			"Luxe.resources.texture",
+			"texture",
+			"circle.png",
+			"angle",
+			"aabbToGrid",
+			"collisionGroup",
 			"overlap",
 			"entity",
 			"Distance",
@@ -1179,21 +1204,7 @@
 			"reset()",
 			"reset",
 			"m_normalImpulse",
-			"reset",
-			"m_normalImpulse",
-			"normalImpulse",
-			"normalMass",
-			"velocityBias",
-			"equalizedMass",
-			"velocityBias",
-			"b2MixFriction",
-			"friction",
-			"rest",
-			"friction",
-			"tangentMass",
-			"initialize",
-			"normalImpulse",
-			"warm"
+			"reset"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1201,6 +1212,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"score",
 			"aInput",
 			"_options",
 			"Body",
@@ -1327,19 +1339,18 @@
 			"--luaAssert(",
 			"initialise",
 			"LuaEntity",
-			"TestComponent2",
-			"TestComponent"
+			"TestComponent2"
 		],
 		"reverse": false,
 		"show_context": false,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1348,15 +1359,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4834,
+						"buffer_size": 8607,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3812,
-								3812
+								3252,
+								3252
 							]
 						],
 						"settings":
@@ -1374,78 +1385,78 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1785.0,
+						"translation.y": 1691.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/physics/Body.hx",
+					"file": "src/physics/SpatialHash.hx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5913,
+						"buffer_size": 6738,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1972,
-								1985
+								5555,
+								5555
 							]
 						],
 						"settings":
@@ -1453,16 +1464,36 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1473,75 +1504,6 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 722.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/Physics.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								518,
-								518
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1552,135 +1514,6 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 25.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/physics/ContactSolver.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4304,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3136,
-								3136
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1691,27 +1524,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1555.0,
+						"translation.y": 3340.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/components/Collider.hx",
+					"buffer": 2,
+					"file": "project.flow",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2671,
+						"buffer_size": 456,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1943,
-								1943
+								60,
+								60
 							]
 						],
 						"settings":
@@ -1719,16 +1552,36 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1739,36 +1592,105 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/sublime_flow/flow-file.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/game/Spawner.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								845,
+								845
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1780,14 +1702,225 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 765.0,
+						"translation.y": 402.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										137,
+										152
+									],
+									[
+										217,
+										232
+									],
+									[
+										262,
+										277
+									],
+									[
+										305,
+										320
+									],
+									[
+										349,
+										364
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"default_dir": "E:\\Dev\\LD34",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "src/components/PlayerBody.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								977,
+								977
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 467.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "src/components/PlayerRun.hx",
 					"semi_transient": false,
 					"settings":
@@ -1799,8 +1932,8 @@
 						"selection":
 						[
 							[
-								1158,
-								1158
+								2758,
+								2758
 							]
 						],
 						"settings":
@@ -1808,16 +1941,36 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1828,36 +1981,16 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1869,116 +2002,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 561.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/components/PlayerBody.hx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7672,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6499,
-								6499
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3649.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "src/entities/Player.hx",
+					"file": "src/physics/ContactSolver.hx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1488,
+						"buffer_size": 4463,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1130,
-								1130
+								3209,
+								3209
 							]
 						],
 						"settings":
@@ -1986,16 +2030,36 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -2006,66 +2070,47 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content"
 							],
-							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage"
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 459.0,
+						"translation.y": 1844.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "src/entities/Circle.hx",
+					"file": "src/entities/Actor.hx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1432,
+						"buffer_size": 656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								842,
-								842
+								402,
+								402
 							]
 						],
 						"settings":
@@ -2073,16 +2118,36 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -2093,49 +2158,118 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content"
 							],
-							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage"
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/physics/Space.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1629,
+								1629
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/sublime_haxe/Haxe.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 586.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
